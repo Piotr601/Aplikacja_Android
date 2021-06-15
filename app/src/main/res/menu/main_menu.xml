@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_mapa"
+            android:title="Mapa"
+            android:icon="@drawable/icon_map">
+        </item>
+
+        <item android:id="@+id/nav_polecane"
+            android:title="Polecane"
+            android:icon="@drawable/icon_star">
+        </item>
+
+        <item android:id="@+id/nav_adoptuj"
+            android:title="Adoptuj psiaka"
+            android:icon="@drawable/icon_smile">
+        </item>
+
+    </group>
+
+        <item android:title="Aplikacja">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_udostepnij"
+                    android:title="Udostepnij"
+                    android:icon="@drawable/icon_share">
+                </item>
+                <item android:id="@+id/nav_ocen"
+                    android:title="Ocen nas"
+                    android:icon="@drawable/icon_rate">
+                </item>
+                <item android:id="@+id/nav_zglosblad"
+                    android:title="Zglos blad"
+                    android:icon="@drawable/icon_bug">
+                </item>
+                </group>
+            </menu>
+        </item>
+
+</menu>
